@@ -1,14 +1,48 @@
 *{
     background-color: #292929;
     color:#fff;
-    padding:5px
+}
+.navbar{
+    border-bottom: 2px solid #161616;
+}
+.nav-link {
+    padding: 0rem 1rem;
 }
 .nav-link, .user-info{
     color:#fff;
+}
+.user-info{
+    padding: 0 10px;
+}
+.user-name{
+    color:#ffffff ;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.user-profile{
+    color:#b9b9b9 ;
+    font-size: 8px;
+    margin-bottom: 0px;
 }
 
 .line{
     border: 0.5px solid rgb(89, 89, 89);
     height:20px;
     margin: 0 5px 0 15px;
+}
+.dropdown:hover .dropdown-menu {display: block;}
+.dropdown-menu, .dropdown-item ,.w-100{
+    background: black;
+    margin: 0px;
+    padding: 2px 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    color: #fff;
+   
+}
+.mg-top{
+    margin-top: 10px;
+}
+.dropdown-divider{
+    margin: 0px;
 }
