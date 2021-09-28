@@ -1,0 +1,14 @@
+*{
+    background-color: #292929;
+    color:#fff;
+    padding:5px
+}
+.nav-link, .user-info{
+    color:#fff;
+}
+
+.line{
+    border: 0.5px solid rgb(89, 89, 89);
+    height:20px;
+    margin: 0 5px 0 15px;
+}
