@@ -8,6 +8,9 @@ import { CollectionsComponent } from 'src/app/pages/collections/collections.comp
 import { CompaignComponent } from 'src/app/pages/compaign/compaign.component';
 import { ProductsComponent } from 'src/app/pages/products/products.component';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { ResolutionRateComponent } from 'src/app/pages/dashboard/resolution-rate/resolution-rate.component';
+import { SettlementOfferComponent } from 'src/app/pages/dashboard/settlement-offer/settlement-offer.component';
+import { StatewisePerformanceComponent } from 'src/app/pages/dashboard/statewise-performance/statewise-performance.component';
 
 
 
@@ -19,6 +22,9 @@ import { SharedModule } from 'src/app/shared/shared.module';
     CollectionsComponent,
     CompaignComponent,
     ProductsComponent,
+    ResolutionRateComponent,
+    SettlementOfferComponent,
+    StatewisePerformanceComponent,
   ],
   imports: [
     RouterModule,

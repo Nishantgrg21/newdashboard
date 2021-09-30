@@ -10,6 +10,7 @@ import { LayoutModule } from './layout/layout/layout.module';
   declarations: [
     AppComponent,
    
+   
   ],
   imports: [
     BrowserModule,

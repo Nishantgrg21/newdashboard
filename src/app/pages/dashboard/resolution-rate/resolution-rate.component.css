@@ -1,0 +1,18 @@
+.card{
+    background: #1e1e1e;
+}
+.card-header, .card-footer{
+    background: #181818;
+    color:#eaeaea;
+}
+.card-header-content{
+    font-size: 13px;
+    color:#eaeaea;
+}
+.card-body{
+    background: #1e1e1e;
+}
+.card-footer-content{
+    font-size: 13px;
+    color:#eaeaea;
+}
