@@ -11,6 +11,8 @@ import { SharedModule } from 'src/app/shared/shared.module';
 import { ResolutionRateComponent } from 'src/app/pages/dashboard/resolution-rate/resolution-rate.component';
 import { SettlementOfferComponent } from 'src/app/pages/dashboard/settlement-offer/settlement-offer.component';
 import { StatewisePerformanceComponent } from 'src/app/pages/dashboard/statewise-performance/statewise-performance.component';
+import { PortfolioComponent } from 'src/app/pages/dashboard/portfolio/portfolio.component';
+import { ResolutionTrendsComponent } from 'src/app/pages/dashboard/resolution-trends/resolution-trends.component';
 
 
 
@@ -25,6 +27,9 @@ import { StatewisePerformanceComponent } from 'src/app/pages/dashboard/statewise
     ResolutionRateComponent,
     SettlementOfferComponent,
     StatewisePerformanceComponent,
+    PortfolioComponent,
+    ResolutionTrendsComponent,
+   
   ],
   imports: [
     RouterModule,

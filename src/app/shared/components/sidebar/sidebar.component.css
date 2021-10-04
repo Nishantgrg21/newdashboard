@@ -4,7 +4,9 @@ img{
 #sidebar{
     background: #160c01;
     color: #fff;
-    height: 100vh;
+    /* height: 100vh; */
+    height: 100%;
+    position: fixed;
 }
 #sidebar ul{
     text-align: center;

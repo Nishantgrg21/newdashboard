@@ -1,5 +1,6 @@
 .card{
     background: #1e1e1e;
+    height: 350px;
 }
 .card-header, .card-footer{
     background: #181818;
@@ -11,17 +12,15 @@
 }
 .card-footer{
     background: #1e1e1e;
+    height: 32px;
 }
 .card-footer-content{
     background: #1e1e1e;
 }
-.card-footer-content{
-    font-size: 13px;
-    background: #1e1e1e;
-    color:#eaeaea;
-}
+
 .card-body-content{
-    font-size: 11px;
+    font-size: 12px;
+    color:#fff;
 }
 
 .col{
@@ -53,4 +52,11 @@
       margin-left: -14px;
       border-radius: 0 0 5px 5px;
       font-size: 10px;
+  }
+  .left{
+    padding: 5px 10px;
+  }
+  .right{
+    padding: 5px 10px;
+    color:#c77803;
   }

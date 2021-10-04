@@ -8,23 +8,13 @@
 }
 .card-header-content{
     font-size: 13px;
-    color: #eaeaea;
+    color:#eaeaea;
 }
 .card-body{
     background: #1e1e1e;
-    color: #fff;
-    font-size: 12px;
+    display: flex;
 }
-
 .card-footer-content{
     font-size: 13px;
     color:#eaeaea;
 }
-.fa-clr{
-    color: #00eb18;
-    padding: 0 10px 0 0;
-      }
-      .fa-clr2{
-        color: #f85151;
-        padding: 0 10px 0 0;
-          }
