@@ -1,4 +1,4 @@
-<div class="row">
+<!-- <div class="row">
     <div class="col-md-12">
         <div class="heading">Portfolio Overview</div>
     </div>
@@ -142,30 +142,38 @@
           </div>
 
     </div>
+</div> -->
+
+<div class="row">
+    <div class="col-md-12">
+        <app-portfolio-overview></app-portfolio-overview>
+    </div>
 </div>
 
 <div class="row">
-    <div class="col-md-12 justify-content-between">
-        <div class="col">
-            <app-resolution-rate></app-resolution-rate>
+    <div class="col-md-12">
+        <div class="dashboard-container">
+            <div class="dashboard-container-block1">
+                <app-resolution-rate></app-resolution-rate>
+            </div>
+            <div class="dashboard-container-block2">
+                <app-settlement-offer></app-settlement-offer>
+            </div>
+            <div class="dashboard-container-block3">
+                <app-statewise-performance></app-statewise-performance>
+            </div>
         </div>
-        <div class="col">
-            <app-settlement-offer></app-settlement-offer>
-        </div>
-        <div class="col">
-            <app-statewise-performance></app-statewise-performance>
-        </div>
-    
     </div>
 </div>
 <div class="row">
-    <div class="col-md-12 justify-content-between">
-        <div class="col-md-4 pad-10">
-            <app-portfolio></app-portfolio>
+    <div class="col-md-12">
+        <div class="dashboard-container">
+            <div class="dashboard-container-block4">
+                <app-portfolio></app-portfolio>
+            </div>
+            <div class="dashboard-container-block5">
+                <app-resolution-trends></app-resolution-trends>
+            </div>
         </div>
-        <div class="col-md-8 pad-10">
-            <app-resolution-trends></app-resolution-trends>
-        </div>
-       
     </div>
 </div>

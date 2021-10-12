@@ -1,2 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
+body {
+  
+    font-family: 'Open Sans', sans-serif !important;
+    background: #292929 !important;
+    color: white !important;
+    outline: none !important;
+    cursor: default;
+}

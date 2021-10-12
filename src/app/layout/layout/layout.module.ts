@@ -13,6 +13,7 @@ import { SettlementOfferComponent } from 'src/app/pages/dashboard/settlement-off
 import { StatewisePerformanceComponent } from 'src/app/pages/dashboard/statewise-performance/statewise-performance.component';
 import { PortfolioComponent } from 'src/app/pages/dashboard/portfolio/portfolio.component';
 import { ResolutionTrendsComponent } from 'src/app/pages/dashboard/resolution-trends/resolution-trends.component';
+import { PortfolioOverviewComponent } from 'src/app/pages/dashboard/portfolio-overview/portfolio-overview.component';
 
 
 
@@ -29,6 +30,7 @@ import { ResolutionTrendsComponent } from 'src/app/pages/dashboard/resolution-tr
     StatewisePerformanceComponent,
     PortfolioComponent,
     ResolutionTrendsComponent,
+    PortfolioOverviewComponent,
    
   ],
   imports: [

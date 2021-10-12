@@ -1,3 +1,18 @@
-*{
-    background: #292929;
+.row{
+    width: 100%;
+    margin: 0;
+}
+.sidebar{
+    width:5%;
+    position: fixed;
+    padding: 0;
+    left: 0;
+
+}
+.navbar{
+    display: block;
+    width:94%;
+    padding: 0;
+    margin-left: 90px;
+    height: 66px;
 }

@@ -2,9 +2,6 @@
     background-color: #292929;
     color:#fff;
 }
-.navbar{
-    border-bottom: 2px solid #161616;
-}
 .nav-link {
     padding: 0rem 1rem;
 }
@@ -13,6 +10,7 @@
 }
 .user-info{
     padding: 0 10px;
+    display: grid;
 }
 .user-name{
     color:#ffffff ;
@@ -26,23 +24,42 @@
 }
 
 .line{
-    border: 0.5px solid rgb(89, 89, 89);
-    height:20px;
+    border: 0.2px solid #0000008F;
+    height:45px;
     margin: 0 5px 0 15px;
 }
-.dropdown:hover .dropdown-menu {display: block;}
-.dropdown-menu, .dropdown-item ,.w-100{
+.cursor{
+    cursor: pointer;
+}
+.dropdown-menu{
+    padding: 0;
+    border: 1px solid black;
+}
+
+.dropdown-menu a:hover{
+    color:#df8f01;
+}
+ .dropdown-item {
     background: black;
     margin: 0px;
-    padding: 2px 5px;
-    font-size: 12px;
-    border-radius: 5px;
+    padding: 5px 5px;
+    font-size: 14px;
     color: #fff;
-   
 }
-.mg-top{
-    margin-top: 10px;
+
+hr{
+margin:0;
+background: #808080;
 }
-.dropdown-divider{
-    margin: 0px;
+
+.ml-auto {
+    margin-left: auto!important;
+}
+
+.f-size{
+    font-size:20px;
+}
+
+.b-dark{
+    background: #000;
 }
